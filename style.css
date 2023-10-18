@@ -1,0 +1,66 @@
+/* Add the following styles to style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    background-image: url('bgpicture.jpg');
+    margin: 0;
+    padding: 0;
+}
+
+.personal-webpage-title {
+    text-align: center;
+    color: white;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    text-align: center; /* Center align content */
+    border-bottom: 2px solid #2600ff; /* Add a yellow line at the bottom */
+    background-image: url('bgpicture.jpg'); /* Add a background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-picture img {
+    max-width: 300px; /* Adjust the size as needed */
+    border-radius: 80%; /* Make it circular */
+    border: 3px solid #2600ff; /* Add a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.profile-info {
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Add top margin for spacing */
+    padding: 10px; /* Add padding */
+    border: 1px solid #2600ff; /* Add a border */
+    background-color: rgba(0, 119, 255, 0.233); /* Add a light blue background */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+/* Add padding and border to other sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Design for section */
+section h2 {
+    color: #2600ff; /* Change section header color */
+    border-bottom: 2px solid #2600ff; /* Add a line under section headers */
+}
+
+section p {
+    color: #333; /* Change text color */
+}
+
+/* Rest of your existing styles */
